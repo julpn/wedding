@@ -1,14 +1,15 @@
 import React from 'react';
+import styles from '../styles/App.css';
 
-class Hotels extends React.Component {
+class Home extends React.Component {
   render() {
     const img = require('./fire.jpg');
     return (
-      <div>
-        <img src={img} />
+      <div className="center">
+        <img className="content-home" src={img} />
       </div>
     )
   }
 }
 
-export default Hotels;
+export default Home;
