@@ -14,7 +14,6 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   plugins: [
-    new webpack.NoEmitOnErrorsPlugin()
   ],
   module: {
     loaders: [
