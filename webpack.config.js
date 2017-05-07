@@ -3,7 +3,6 @@ var webpack = require("webpack");
 
 module.exports = {
   entry: [
-    'webpack-dev-server/client?http://localhost:8080', // WebpackDevServer host and port
     './src/index.js' // Your appʼs entry point
   ],
   output: {
@@ -15,8 +14,18 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin()
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.UglifyJsPlugin({
+      minimize: true,
+      compress: {
+        warnings: false
+      }
+    }),
+    new webpack.DefinePlugin({
+      'process.env': {
+        'NODE_ENV': JSON.stringify('production')
+      }
+    })  
   ],
   module: {
     loaders: [
