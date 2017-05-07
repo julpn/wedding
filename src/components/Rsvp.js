@@ -3,7 +3,12 @@ import styles from '../styles/App.css';
 
 class Rsvp extends React.Component {
   render() {
-    return <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeHGJt-oacpgnrmYSTOqIskjzE833FIL5xH5a7Z9CKOhiYgUg/viewform?embedded=true" width="488" height="545" frameborder="0" marginheight="0" marginwidth="0"  ALLOWTRANSPARENCY="true">Loading...</iframe>
+  	return (
+
+		<div className="content">
+			<iframe id="formlets-iframe" src="https://www.formlets.com/forms/8M7ODfWfh3bD3Ibr/?iframe=true" frameBorder="0" height="700px" width="100%"></iframe>
+		</div>
+	)
   }
 }
 

@@ -3,10 +3,10 @@ import styles from '../styles/App.css';
 
 class Hotels extends React.Component {
   render() {
-    const blue = require('./hotellebleu.jpg');
-    const holidayInn = require('./holidayinn.jpg');
-    const redLion = require('./redlion.jpg');
-    const fairfield = require('./fairfield.jpg');
+    const blue = require('../assets/hotellebleu.jpg');
+    const holidayInn = require('../assets/holidayinn.jpg');
+    const redLion = require('../assets/redlion.jpg');
+    const fairfield = require('../assets/fairfield.jpg');
     return (
 
         <div className="content">

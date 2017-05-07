@@ -3,6 +3,7 @@ import { render } from 'react-dom'
 
 import MenuItem from './MenuItem';
 import Hotels from './Hotels';
+import Registry from './Registry';
 import Logistics from './Logistics';
 import Rsvp from './Rsvp';
 import Home from './Home';
@@ -39,7 +40,7 @@ class App extends Component {
         <div className="background"></div>
 
         <div className="App-header">
-          <h2>8.19.2017</h2>
+          <div className="header1">8.19.2017</div>
           <h2 style={style}>Matt & Julie are Getting Married!</h2>
         </div>
 
@@ -47,8 +48,8 @@ class App extends Component {
         <div className="block center">
           <MenuItem name="Visit" to="/visit" loc={currentLocation} id={'hotels'} onToggle={this.onMenuToggle} selected={this.state.selected}/>
           <MenuItem name="Logistics" to="/logistics" loc={currentLocation} id={'logistics'} onToggle={this.onMenuToggle} selected={this.state.selected}/>
+          <MenuItem name="Registry" to="/registry" loc={currentLocation} id={'registry'} onToggle={this.onMenuToggle} selected={this.state.selected}/>
           <MenuItem name="RSVP" to="/rsvp" loc={currentLocation} id={'rsvp'} onToggle={this.onMenuToggle} selected={this.state.selected}/>
-          <MenuItem name="Visiting NYC" to="/visit" loc={currentLocation} id={'visit'} onToggle={this.onMenuToggle} selected={this.state.selected}/>
         </div>
 
         <div className="block">
@@ -67,10 +68,10 @@ class App extends Component {
     <Router history={hashHistory}>
       <Route path="/" component={App}>
         <IndexRoute component={Home} />
-        <Route path="visit" component={Hotels} />
         <Route path="rsvp" component={Rsvp} />
         <Route path="logistics" component={Logistics} />
         <Route path="visit" component={Hotels} />
+        <Route path="registry" component={Registry} />
       </Route>
     </Router>
   ), document.body)

@@ -3,7 +3,7 @@ import styles from '../styles/App.css';
 
 class Home extends React.Component {
   render() {
-    const img = require('./fire.jpg');
+    const img = require('../assets/fire.jpg');
     return (
       <div className="center">
         <img className="content-home" src={img} />
