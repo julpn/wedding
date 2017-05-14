@@ -6,7 +6,7 @@ class Rsvp extends React.Component {
   	return (
 
 		<div className="content">
-			<iframe id="formlets-iframe" src="https://www.formlets.com/forms/8M7ODfWfh3bD3Ibr/?iframe=true" frameBorder="0" height="700px" width="100%"></iframe>
+			<iframe id="formlets-iframe" src="https://www.formlets.com/forms/8M7ODfWfh3bD3Ibr/?iframe=true" frameBorder="0" height="850px" width="100%"></iframe>
 		</div>
 	)
   }

@@ -71,13 +71,11 @@ class Hotels extends React.Component {
           <h1 className="title">Fun Things To Do!</h1>
             <ul>
               <li><span className="subsubtitle">ROYAL PALMS SHUFFLEBOARD CLUB</span> - fun restaurant/bar with shuffleboard courts</li>
-              <li><span className="subsubtitle">BROOKLYN BOULDERS</span> - rock climbing gym that we have been to two or three times</li>
               <li><span className="subsubtitle">DIRTY PRECIOUS</span> - hip cocktail bar with great grilled cheese and rosé on tap</li>
               <li><span className="subsubtitle">BROOKLYN CRAB</span> - seafood restaurant with view of Manhattan and Statue of Liberty</li>
-              <li><span className="subsubtitle">AMPLE HILLS GOWANUS</span> - delicious ice cream! (Mimo recommends the Salted Crack Caramel ice cream in a waffle cone and Nate recommends the Mexican Hot Chocolate ice cream)</li>
-              <li><span className="subsubtitle">DINOSAUR BBQ</span> - our favorite BBQ place</li>
-              <li><span className="subsubtitle">GORILLA COFFEE</span> - Nates favorite coffee spot in the neighborhood</li>
-              <li><span className="subsubtitle">LAVENDER LAKE</span> - Miranda loves the big backyard at this cool bar</li>
+              <li><span className="subsubtitle">AMPLE HILLS GOWANUS</span> - delicious ice cream! (Julie recommends the Snap Crackle Pop)</li>
+              <li><span className="subsubtitle">DINOSAUR BBQ</span> - a favorite BBQ place</li>
+              <li><span className="subsubtitle">LAVENDER LAKE</span> - They have a great backyard</li>
             </ul>
             Let us know if youd like any other recommendations for specific food or activities in Manhattan or other parts of Brooklyn!
         </div>
