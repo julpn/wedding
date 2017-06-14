@@ -61,7 +61,7 @@ class Hotels extends React.Component {
               <p className="description">The Hotel Le Bleu is the closest to our venue, just an 8 minute walk or very short car ride.
                Rates are $219-239 per night.<br/><br/>
                To book,
-              call the Hotel Le Bleu at (718) 522-4000 and mention the Eubank-Klinman wedding. <br/><br/>To get the discounted rate, reservations must be made by July 18th, 2017.</p>
+              call the Hotel Le Bleu at (866) 427-6073 and mention the Eubank-Klinman wedding. <br/><br/>To get the discounted rate, reservations must be made by July 18th, 2017.</p>
                <br/><br/><br/>
             </p>
             <img className="photo right" src={blue} />
