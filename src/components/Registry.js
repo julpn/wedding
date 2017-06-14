@@ -3,13 +3,17 @@ import styles from '../styles/App.css';
 
 class Registry extends React.Component {
   render() {
-    const construction = require('../assets/construction.gif');
-
+    const hiking = require('../assets/hiking.JPG');
+    var style = {
+      textAlign: 'center'
+    }
     return (
       <div className="content">
-        <h1 className="title">Registry Coming Soon!</h1>
+        <h1 className="title">Registry</h1>
         <div>
-          <img className="center photo" src={construction} />
+          <p className="description">We can't wait to celebrate with you, and we appreciate the gift of your presence! But for <i>presents</i>, that's here:</p>
+          <p style={style}> <a href="https://www.zola.com/registry/mattjulie" target="_blank">Our Registry</a> </p>
+          <img className="center photo" src={hiking} />
         </div>
       </div>
     )
